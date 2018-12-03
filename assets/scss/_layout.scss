@@ -8,8 +8,15 @@
   margin-bottom: 1rem;
 }
 .carousel-item {
+  width: 100vh;
   height: 45vh;
   overflow: hidden;
+  @media screen and (min-width: 568px) {
+    height: 55vh;
+  }
+  @media screen and (min-width: 769px) {
+    height: 60vh;
+  }
 }
 .carousel-item img {
   width: 100%;
