@@ -25,7 +25,7 @@
         <li class="nav-item"><a href="#" class="nav-link">About</a></li>
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" id="myDropdown" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Portfolio</a>
+            aria-expanded="false" role="button">Portfolio</a>
           <div class="dropdown-menu" aria-labelledby="myDropdown">
             <a href="#" class="dropdown-item">Item 1</a>
             <a href="#" class="dropdown-item">Item 2</a>
@@ -34,8 +34,14 @@
         </li>
       </ul>
     </div>
+    <form action="" class="form-inline my-2 my-md-0">
+      <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
+      <button class="btn-btn-outline-success my-2 my-md-0" type="Submit">Search</button>
+    </form>
   </nav>
 
+  <script src="node_modules/jquery/src/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/popper.js"></script>
 </body>
 
 </html>
