@@ -1,0 +1,9 @@
+.bd-example > .progress + .progress {
+  margin-top: 1rem;
+}
+.progress:last-of-type {
+  margin-bottom: 1rem;
+}
+.col-sm-12, .container {
+  margin-bottom: 1rem;
+}
